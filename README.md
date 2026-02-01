@@ -33,13 +33,6 @@ For more in-depth documentation, please check the files.
 | **cli** (not implemented) | Enables `CliFrontendPlugin` |
 | bevy_egui | Enables `EguiFrontendPlugin` |
 
-## Tracing Capture
-If you wish to capture info, warn and error logs from tracing, you will need to add the plugin's layer to Bevy's ```LogPlugin```.
-
-```rust
-// TODO: add it later
-```
-
 ## Examples
 
 Egui frontend:
@@ -68,4 +61,3 @@ cargo run --example cli --features cli
 ## License
 
 ## Contribution
-# bevy_ss2197_console
